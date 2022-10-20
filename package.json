@@ -1,0 +1,23 @@
+{
+  "name": "@example/minimal",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "tina": "pnpm tinacms dev -c \"pnpm dev\""
+  },
+  "dependencies": {
+    "@tinacms/cli": "^0.61.25",
+    "astro": "^1.5.2",
+    "tinacms": "^0.69.19"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.27.0",
+    "eslint": "^8.25.0"
+  }
+}
