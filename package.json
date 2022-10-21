@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && tinacms build",
     "preview": "astro preview",
     "astro": "astro",
-    "tina": "pnpm tinacms dev -c \"pnpm dev\""
+    "tina": "tinacms dev -c \"pnpm dev\""
   },
   "dependencies": {
     "@tinacms/cli": "^0.61.25",
